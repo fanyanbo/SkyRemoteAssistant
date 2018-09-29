@@ -1,2 +1,1 @@
-# SkyRemoteAssistant
-远程协助
+Android Studio构建分支
