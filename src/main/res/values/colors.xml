@@ -3,4 +3,16 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="ffffff">#ffffff</color>
+    <color name="a0ffffff">#a0ffffff</color>
+    <color name="ff7f24">#ff7f24</color>
+    <color name="a70ffffff">#b0ffffff</color>
+    <color name="ff061527">#061527</color>
+    <color name="ff000000">#ff000000</color>
+    <color name="ff333333">#ff333333</color> <!-- 黑色 -->
+    <color name="ff5b5b5b">#ff5b5b5b</color> <!-- 灰色 -->
+    <color name="ff999999">#ff999999</color>
+    <color name="ff2c2c2c">#ff2c2c2c</color>
+
 </resources>

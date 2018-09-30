@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">SkyRemoteAssistant</string>
+    <!--<string name="app_name">RemoteControlService</string>-->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">pushId:</string>
+
+    <string name="tip1">已被远程连接</string>
+    <string name="tip2">注：用遥控器快按3次返回键即可退出控制</string>
+    <string name="auth">授权</string>
+    <string name="refuse">拒绝</string>
+    <string name="tvdoctor_service">远程售后服务</string>
+    <string name="control_request">电视售后人员请求远程连接您的电视，是否授权？[test]</string>
+    <string name="control_request_again">当前您的电视已被远程连接，是否再次授权？</string>
+    <string name="exit_control_tip">当前电视已经断开远程连接!</string>
+    <string name="known">知道了</string>
 </resources>
