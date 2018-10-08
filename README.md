@@ -3,7 +3,7 @@
 *需要注意的点：*
 
 1.工程内集成了一个32位so:libfake.so, 可在64位机器上进行调试<br>
-*也可以不用该so，编译出32位的libcoocaavnc.so代替libfake.so即可
+*也可以不用该so，编译出32位的libcoocaavnc.so代替libfake.so即可*
 
 2.工程内有dialog弹窗交互，在android6.0及以上会有权限问题，弹窗无法显示
 *在酷开系统中需要system权限，并签名*
