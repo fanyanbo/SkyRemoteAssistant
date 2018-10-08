@@ -1,0 +1,15 @@
+
+namespace coocaa;
+
+table IPCMessageFormat{
+	uuid : string;
+    to   : string;
+    from : string;
+    cmd  : string;
+    needAck : uint;
+    bodysize : uint;
+    keys   : [string];
+}
+
+root_type IPCMessageFormat;
+
