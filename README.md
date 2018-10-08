@@ -16,5 +16,7 @@
 5.目前可行的解决方案是保持内置apk不变动，调试apk加上权限并签名，覆盖安装即可使用
 
 6.在该工程中添加了C++层代码，并能通过编译，rebuild project即可
+*在Android studio中需要配置ndk路径，ndk版本是r14,单独下载的
 
 7.编译后的libcoocaavnc.so在build/intermediates/ndkBuild下，将该so拷贝到src/main/jniLibs下，同时关闭主工程build.gradle中ndk编译代码，否则每次都会去编译so，但事实上我们不用，C++代码改动很少，需要编译时在打开build.gradle中的相应代码；另一个原因是在Application.mk中依赖了stl的so，会编译生成libgnustl.so,这个so会一起打包到apk中，增加了apk体积
+
